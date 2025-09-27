@@ -1,4 +1,4 @@
-##Cognisive VS Code Extension
+## Cognisive VS Code Extension
 
 **Cognisive** is a Visual Studio Code extension that helps developers write secure code by detecting real-time security vulnerabilities and providing actionable guidance using **Retrieval-Augmented Generation (RAG)** technology.
 
@@ -13,8 +13,8 @@
 
 ---
 
-## Project Structure
-
+### Project Structure
+```
 cognisive_extension/
 ├── .vscode/ # VS Code workspace settings
 ├── rules/ # Security rules definitions
@@ -30,6 +30,8 @@ cognisive_extension/
 ├── package.json # Project dependencies and scripts
 ├── tsconfig.json # TypeScript configuration
 ├── vsc-extension-quickstart.md
+
+```
 
 ## Installation
 
@@ -125,17 +127,7 @@ Scans package.json for known vulnerabilities:
 
 ## Development
 
-### Project Structure
-```
-src/
-├── extension.ts          # Main extension logic
-├── test/
-│   ├── extension.test.js
-│   └── extension.test.ts
-rules/
-├── secure_coding_kb.txt  # Knowledge base
-└── hardcoded-secrets.yml # Semgrep rules
-```
+
 
 ### Building
 ```bash
