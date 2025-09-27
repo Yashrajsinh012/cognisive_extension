@@ -1,33 +1,44 @@
-<<<<<<< HEAD
-# coginivise - VS Code Security Extension
+#Cognisive VS Code Extension
 
-A comprehensive VS Code extension that provides real-time security vulnerability detection and secure coding assistance using RAG (Retrieval-Augmented Generation) technology.
+**Cognisive** is a Visual Studio Code extension that helps developers write secure code by detecting real-time security vulnerabilities and providing actionable guidance using **Retrieval-Augmented Generation (RAG)** technology.
+
+---
 
 ## Features
 
-### 🔒 Security Vulnerability Detection
-- **Hardcoded Secrets**: Detects API keys, passwords, tokens, and credentials
-- **Missing Authorization**: Identifies functions lacking proper authorization checks
-- **SSRF Vulnerabilities**: Detects Server-Side Request Forgery patterns
-- **Outdated Dependencies**: Scans package.json for vulnerable libraries
-- **SQL Injection**: Identifies vulnerable database queries
-- **XSS Vulnerabilities**: Detects Cross-Site Scripting patterns
+-  **Real-time Security Detection**: Automatically scans code for common security issues as you type.
+-  **Secure Coding Suggestions**: Offers recommendations to fix identified vulnerabilities.
+- **Customizable Rules**: Users can define and extend security rules to fit their project needs.
+-  **VS Code Integration**: Seamlessly works within the VS Code environment for smooth developer experience.
 
-### 🤖 AI-Powered Prompt Enhancement
-- **RAG Integration**: Uses secure coding knowledge base for context
-- **LLM Enhancement**: Generates secure coding prompts via Groq API
-- **Local Fallback**: Works offline with intelligent local enhancement
-- **Context-Aware**: Analyzes code patterns for relevant security guidance
+---
 
-### ⚡ QuickFix Support
-- **Auto-Fix**: One-click fixes for common security issues
-- **Environment Variables**: Replace hardcoded secrets with env vars
-- **Authorization Templates**: Add security checks to functions
-- **URL Validation**: Insert SSRF protection code
+## Project Structure
+
+cognisive_extension/
+├── .vscode/ # VS Code workspace settings
+├── rules/ # Security rules definitions
+├── src/ # Source code of the extension
+├── test/ # Unit and integration tests
+├── .gitignore
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── PROJECT_STRUCTURE.md
+├── README.md
+├── eslint.config.mjs # ESLint configuration
+├── package-lock.json
+├── package.json # Project dependencies and scripts
+├── tsconfig.json # TypeScript configuration
+├── vsc-extension-quickstart.md
 
 ## Installation
 
 1. Clone this repository
+
+```bash
+git clone https://github.com/Yashrajsinh012/cognisive_extension.git
+cd cognisive_extension
+```
 2. Install dependencies:
    ```bash
    npm install
@@ -144,28 +155,3 @@ npm test
 4. Add tests if applicable
 5. Submit a pull request
 
-## License
-
-MIT License - see LICENSE file for details
-
-## Security
-
-This extension is designed to help improve code security. However, it should be used as part of a comprehensive security strategy, not as the only security measure.
-
-## Support
-
-For issues and feature requests, please use the GitHub Issues page.
-
-## Changelog
-
-### v1.0.0
-- Initial release
-- Hardcoded secrets detection
-- Missing authorization detection
-- SSRF vulnerability detection
-- Dependency vulnerability scanning
-- AI-powered prompt enhancement
-- QuickFix support
-=======
-# Cogisive_extension
->>>>>>> e12ddf667e169c8ff2c64a15ac928096c5234f0d
