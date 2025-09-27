@@ -1,4 +1,4 @@
-#Cognisive VS Code Extension
+##Cognisive VS Code Extension
 
 **Cognisive** is a Visual Studio Code extension that helps developers write secure code by detecting real-time security vulnerabilities and providing actionable guidance using **Retrieval-Augmented Generation (RAG)** technology.
 
